@@ -1,0 +1,148 @@
+name: "My AI Override"
+desc: "AI配置"
+priority: 120
+
+proxy-groups:
+  - name: AI-Select
+    type: select
+    proxies:
+      - 🔰 选择节点
+      - 🇯🇵 Osaka
+
+rules:
+  - DOMAIN,ai.google.dev,AI-Select
+  - DOMAIN,alkalicore-pa.clients6.google.com,AI-Select
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com,AI-Select
+  - DOMAIN,antigravity.google,AI-Select
+  - DOMAIN,api.github.com,AI-Select
+  - DOMAIN,api.statsig.com,AI-Select
+  - DOMAIN,api.together.xyz,AI-Select
+  - DOMAIN,apple-relay.apple.com,AI-Select
+  - DOMAIN,apple-relay.cloudflare.com,AI-Select
+  - DOMAIN,apple-relay.fastly-edge.com,AI-Select
+  - DOMAIN,apple-relay.mask.apple-dns.net,AI-Select
+  - DOMAIN,browser-intake-datadoghq.com,AI-Select
+  - DOMAIN,copilot-proxy.githubusercontent.com,AI-Select
+  - DOMAIN,cp4.cloudflare.com,AI-Select
+  - DOMAIN,gspe1-ssl.ls.apple.com,AI-Select
+  - DOMAIN,guzzoni.apple.com,AI-Select
+  - DOMAIN,imagine.meta.com,AI-Select
+  - DOMAIN,o33249.ingest.sentry.io,AI-Select
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI-Select
+  - DOMAIN,openaicom.imgix.net,AI-Select
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net,AI-Select
+  - DOMAIN,pplx-res.cloudinary.com,AI-Select
+  - DOMAIN,production-openaicom-storage.azureedge.net,AI-Select
+  - DOMAIN,servd-anthropic-website.b-cdn.net,AI-Select
+  - DOMAIN,sydney.bing.com,AI-Select
+  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com,AI-Select
+  - DOMAIN,www.bing.com,AI-Select
+
+  - DOMAIN-SUFFIX,ai.azure.com,AI-Select
+  - DOMAIN-SUFFIX,ai.com,AI-Select
+  - DOMAIN-SUFFIX,aida.googleapis.com,AI-Select
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com,AI-Select
+  - DOMAIN-SUFFIX,aistudio.google.com,AI-Select
+  - DOMAIN-SUFFIX,anthropic.com,AI-Select
+  - DOMAIN-SUFFIX,apps.mzstatic.com,AI-Select
+  - DOMAIN-SUFFIX,auth0.com,AI-Select
+  - DOMAIN-SUFFIX,bard.google.com,AI-Select
+  - DOMAIN-SUFFIX,byteoversea.com,AI-Select
+  - DOMAIN-SUFFIX,cerebras.ai,AI-Select
+  - DOMAIN-SUFFIX,chat.com,AI-Select
+  - DOMAIN-SUFFIX,chatgpt.com,AI-Select
+  - DOMAIN-SUFFIX,chutes.ai,AI-Select
+  - DOMAIN-SUFFIX,cici.com,AI-Select
+  - DOMAIN-SUFFIX,ciciai.com,AI-Select
+  - DOMAIN-SUFFIX,ciciaicdn.com,AI-Select
+  - DOMAIN-SUFFIX,claude.ai,AI-Select
+  - DOMAIN-SUFFIX,claude.com,AI-Select
+  - DOMAIN-SUFFIX,claudemcpclient.com,AI-Select
+  - DOMAIN-SUFFIX,claudeusercontent.com,AI-Select
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,AI-Select
+  - DOMAIN-SUFFIX,clipdrop.co,AI-Select
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com,AI-Select
+  - DOMAIN-SUFFIX,coderabbit.ai,AI-Select
+  - DOMAIN-SUFFIX,coderabbit.gallery.vsassets.io,AI-Select
+  - DOMAIN-SUFFIX,cohere.ai,AI-Select
+  - DOMAIN-SUFFIX,cohere.com,AI-Select
+  - DOMAIN-SUFFIX,comfy.org,AI-Select
+  - DOMAIN-SUFFIX,comfyci.org,AI-Select
+  - DOMAIN-SUFFIX,comfyregistry.org,AI-Select
+  - DOMAIN-SUFFIX,copilot.cloud.microsoft,AI-Select
+  - DOMAIN-SUFFIX,copilot.microsoft.com,AI-Select
+  - DOMAIN-SUFFIX,coze.com,AI-Select
+  - DOMAIN-SUFFIX,cursor-cdn.com,AI-Select
+  - DOMAIN-SUFFIX,cursor.com,AI-Select
+  - DOMAIN-SUFFIX,cursor.sh,AI-Select
+  - DOMAIN-SUFFIX,cursorapi.com,AI-Select
+  - DOMAIN-SUFFIX,deepmind.com,AI-Select
+  - DOMAIN-SUFFIX,deepmind.google,AI-Select
+  - DOMAIN-SUFFIX,devin.ai,AI-Select
+  - DOMAIN-SUFFIX,diabrowser.com,AI-Select
+  - DOMAIN-SUFFIX,dify.ai,AI-Select
+  - DOMAIN-SUFFIX,dola.com,AI-Select
+  - DOMAIN-SUFFIX,elevenlabs.com,AI-Select
+  - DOMAIN-SUFFIX,elevenlabs.io,AI-Select
+  - DOMAIN-SUFFIX,events.statsigapi.net,AI-Select
+  - DOMAIN-SUFFIX,featuregates.org,AI-Select
+  - DOMAIN-SUFFIX,gateway.ai.cloudflare.com,AI-Select
+  - DOMAIN-SUFFIX,gateway.icloud.com,AI-Select
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com,AI-Select
+  - DOMAIN-SUFFIX,gemini.google,AI-Select
+  - DOMAIN-SUFFIX,gemini.google.com,AI-Select
+  - DOMAIN-SUFFIX,generativeai.google,AI-Select
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI-Select
+  - DOMAIN-SUFFIX,githubcopilot.com,AI-Select
+  - DOMAIN-SUFFIX,grazie.ai,AI-Select
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net,AI-Select
+  - DOMAIN-SUFFIX,grok.com,AI-Select
+  - DOMAIN-SUFFIX,grok.x.com,AI-Select
+  - DOMAIN-SUFFIX,groq.com,AI-Select
+  - DOMAIN-SUFFIX,hf.co,AI-Select
+  - DOMAIN-SUFFIX,hf.space,AI-Select
+  - DOMAIN-SUFFIX,huggingface.co,AI-Select
+  - DOMAIN-SUFFIX,identrust.com,AI-Select
+  - DOMAIN-SUFFIX,intercom.io,AI-Select
+  - DOMAIN-SUFFIX,intercomcdn.com,AI-Select
+  - DOMAIN-SUFFIX,jasper.ai,AI-Select
+  - DOMAIN-SUFFIX,jetbrains.ai,AI-Select
+  - DOMAIN-SUFFIX,jules.google,AI-Select
+  - DOMAIN-SUFFIX,jules.google.com,AI-Select
+  - DOMAIN-SUFFIX,labs.google,AI-Select
+  - DOMAIN-SUFFIX,livekit.cloud,AI-Select
+  - DOMAIN-SUFFIX,makersuite.google.com,AI-Select
+  - DOMAIN-SUFFIX,marscode.com,AI-Select
+  - DOMAIN-SUFFIX,meta.ai,AI-Select
+  - DOMAIN-SUFFIX,mistral.ai,AI-Select
+  - DOMAIN-SUFFIX,notebooklm.google,AI-Select
+  - DOMAIN-SUFFIX,notebooklm.google.com,AI-Select
+  - DOMAIN-SUFFIX,oaistatic.com,AI-Select
+  - DOMAIN-SUFFIX,oaiusercontent.com,AI-Select
+  - DOMAIN-SUFFIX,openai.com,AI-Select
+  - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net,AI-Select
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AI-Select
+  - DOMAIN-SUFFIX,openart.ai,AI-Select
+  - DOMAIN-SUFFIX,openrouter.ai,AI-Select
+  - DOMAIN-SUFFIX,oystermercury.top,AI-Select
+  - DOMAIN-SUFFIX,perplexity.ai,AI-Select
+  - DOMAIN-SUFFIX,perplexity.com,AI-Select
+  - DOMAIN-SUFFIX,poe.com,AI-Select
+  - DOMAIN-SUFFIX,poecdn.net,AI-Select
+  - DOMAIN-SUFFIX,pplx.ai,AI-Select
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,AI-Select
+  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,AI-Select
+  - DOMAIN-SUFFIX,smoot.apple.com,AI-Select
+  - DOMAIN-SUFFIX,sora.com,AI-Select
+  - DOMAIN-SUFFIX,trae.ai,AI-Select
+  - DOMAIN-SUFFIX,x.ai,AI-Select
+
+  - DOMAIN-KEYWORD,anthropic,AI-Select
+  - DOMAIN-KEYWORD,claude,AI-Select
+  - DOMAIN-KEYWORD,openai,AI-Select
+  - DOMAIN-KEYWORD,openaicom,AI-Select
+  - DOMAIN-KEYWORD,labs.google,AI-Select
+  - DOMAIN-KEYWORD,notebooklm.google,AI-Select
+  - DOMAIN-KEYWORD,openaiapi,AI-Select
+
+  - DOMAIN-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$,AI-Select
